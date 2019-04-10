@@ -104,8 +104,15 @@ def main():
 	with open("output.json" , 'r' ) as f:
 		output = json.load(f) 
 		tdm = []
+		co_tdm = []
+		key_word_list = []
+		for i,words in classify_dict.items():
+			key_word_list += words
+		
+		
 		for index,info in output.items():
 			temp_tdm = [0,0,0]
+			temp_co_tdm = [0]*len(key_word_list)
 			words = preprocess(info["topic"] +' ' + info['parag'])
 			words = [(w,-1) for w in words]
 			for w in words:
@@ -113,11 +120,16 @@ def main():
 					if w[0] in val:
 						temp_tdm[key] = temp_tdm[key]+1
 						w = (w[0],key)
+				for key, val in enumerate(key_word_list):
+					if w[0] == val:
+						temp_co_tdm[key] = temp_co_tdm[key]+1
 			tdm.append(temp_tdm)
+			co_tdm.append(temp_co_tdm)
 			info['parag'] = words
 	with open("result.json",'w') as fp:
 		json.dump(output,fp)
 	print("tdm",tdm)
+	print("\nco_tdm",co_tdm)
 
 
 
