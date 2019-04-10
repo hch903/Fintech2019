@@ -4,6 +4,7 @@ import gensim
 import spacy
 import pandas as pd
 import re
+from collections import defaultdict as dd
 from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
 from gensim import corpora, models, similarities
@@ -82,7 +83,7 @@ def main():
 	#print([[(id2word[id], freq) for id, freq in cp] for cp in corpus[:1]])
 
 	lda_model = gensim.models.ldamodel.LdaModel(corpus = corpus,id2word = id2word,num_topics = CLASS_NUM,
-												random_state = 100,update_every = 1,chunksize = 100,passes = 20,
+												random_state = 100,update_every = 1,chunksize = 100,passes = 25,
 												alpha = 'auto',per_word_topics = True)
 	#print("lda_model.topic\n",lda_model.print_topics())
 	null_topics = lda_model.print_topics()
@@ -92,7 +93,13 @@ def main():
 	for row in null_topics:
 		self_type,key_word_combind = row[0],row[1]
 		key_word_list = ''.join(c for c in key_word_combind if (c.isalnum() or c.isspace()) and not c.isdigit()).split()
-		classify_dict.setdefault(self_type,key_word_list)
+		for key_word in key_word_list:
+			classify_dict.setdefault(key_word,self_type)
+	temp_cla_dict = dd(list)
+	for w ,self_type in classify_dict.items():
+		temp_cla_dict[self_type].append(w)
+	classify_dict = temp_cla_dict
+
 	print("classify word",classify_dict)
 	with open("output.json" , 'r' ) as f:
 		output = json.load(f) 
