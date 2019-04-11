@@ -4,6 +4,7 @@ import gensim
 import spacy
 import pandas as pd
 import re
+import csv
 from collections import defaultdict as dd
 from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
@@ -130,6 +131,36 @@ def main():
 		json.dump(output,fp)
 	print("tdm",tdm)
 	print("\nco_tdm",co_tdm)
+	total = len(co_tdm)
+	
+	fix_matrix = [0]*len(key_word_list)
+	for row in co_tdm:
+		for key,val in enumerate(row):
+			fix_matrix[key] = fix_matrix[key] + val
+	co_ocr_matrix = []
+	for i in range(len(key_word_list)):
+		temp = [0]*len(key_word_list)
+		temp[i] = 1
+		co_ocr_matrix.append(temp)
+
+	for i in range(len(key_word_list)-1):
+		for row in co_tdm:
+			if(row[i]>0 and row[i+1]>0):
+				co_ocr_matrix[i][i+1] = co_ocr_matrix[i][i+1] + 1/fix_matrix[i]
+				co_ocr_matrix[i+1][i] = co_ocr_matrix[i+1][i] + 1/fix_matrix[i+1]
+	print("key word appear times",fix_matrix)
+	print("co-occurence-matrix",co_ocr_matrix)
+	for key,row in enumerate(co_ocr_matrix):
+		row.insert(0,key_word_list[key])
+	with open("co_ocr_matrix.csv","w",newline = '') as f:
+		writer = csv.writer(f)
+		writer.writerow([""]+key_word_list)
+		writer.writerows(co_ocr_matrix)
+
+				
+
+
+
 
 
 
