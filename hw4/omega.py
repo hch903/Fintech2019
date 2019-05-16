@@ -54,7 +54,7 @@ def main():
         month_dict[symbol] = omega_ratio(val,FREE_RATE)
     week_rank = sorted(week_dict,key = week_dict.get,reverse = True)
     month_rank = sorted(month_dict,key = month_dict.get,reverse = True)
-    print("top20 sort by week",week_rank[:20])
+    print("top20 sort by week", week_rank[:20])
     print("top20 sort by month",month_rank[:20])
     week_rank = [[i+1,x] for i,x in enumerate(week_rank)]
     month_rank = [ [i+1,x] for i,x in enumerate(month_rank)]
