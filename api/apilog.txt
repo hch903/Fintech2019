@@ -1,0 +1,453 @@
+20190607153807- INFO:loading Word2Vec object from finword_to_vec.model
+20190607153807- DEBUG:{'closefd': True, 'transport_params': {}, 'mode': 'rb', 'newline': None, 'uri': 'finword_to_vec.model', 'opener': None, 'buffering': -1, 'errors': None, 'encoding': None, 'ignore_ext': False}
+20190607153807- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607153807- INFO:setting ignored attribute vectors_norm to None
+20190607153807- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607153807- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607153807- INFO:setting ignored attribute cum_table to None
+20190607153807- INFO:loaded finword_to_vec.model
+20190607153809- WARNING:segment fail
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 40, in segment
+    sentence = sentence.strip('\n')
+AttributeError: 'NoneType' object has no attribute 'strip'
+20190607153809- WARNING:segment fail
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 40, in segment
+    sentence = sentence.strip('\n')
+AttributeError: 'NoneType' object has no attribute 'strip'
+20190607153824- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607153826- INFO:loading Word2Vec object from finword_to_vec.model
+20190607153826- DEBUG:{'transport_params': {}, 'closefd': True, 'uri': 'finword_to_vec.model', 'errors': None, 'ignore_ext': False, 'opener': None, 'mode': 'rb', 'encoding': None, 'newline': None, 'buffering': -1}
+20190607153826- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607153826- INFO:setting ignored attribute vectors_norm to None
+20190607153826- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607153826- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607153826- INFO:setting ignored attribute cum_table to None
+20190607153826- INFO:loaded finword_to_vec.model
+20190607153828- WARNING:segment fail
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 40, in segment
+    sentence = sentence.strip('\n')
+AttributeError: 'NoneType' object has no attribute 'strip'
+20190607153828- WARNING:segment fail
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 40, in segment
+    sentence = sentence.strip('\n')
+AttributeError: 'NoneType' object has no attribute 'strip'
+20190607153854- WARNING:segment fail
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 40, in segment
+    sentence = sentence.strip('\n')
+AttributeError: 'NoneType' object has no attribute 'strip'
+20190607153854- WARNING:segment fail
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 40, in segment
+    sentence = sentence.strip('\n')
+AttributeError: 'NoneType' object has no attribute 'strip'
+20190607153927- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607153929- INFO:loading Word2Vec object from finword_to_vec.model
+20190607153929- DEBUG:{'uri': 'finword_to_vec.model', 'errors': None, 'transport_params': {}, 'ignore_ext': False, 'opener': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'newline': None, 'closefd': True}
+20190607153929- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607153929- INFO:setting ignored attribute vectors_norm to None
+20190607153929- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607153929- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607153929- INFO:setting ignored attribute cum_table to None
+20190607153929- INFO:loaded finword_to_vec.model
+20190607153931- WARNING:segment fail
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 41, in segment
+    sentence = sentence.strip('\n')
+AttributeError: 'NoneType' object has no attribute 'strip'
+20190607153931- WARNING:segment fail
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 41, in segment
+    sentence = sentence.strip('\n')
+AttributeError: 'NoneType' object has no attribute 'strip'
+20190607153952- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607153954- INFO:loading Word2Vec object from finword_to_vec.model
+20190607153954- DEBUG:{'transport_params': {}, 'newline': None, 'ignore_ext': False, 'buffering': -1, 'encoding': None, 'mode': 'rb', 'uri': 'finword_to_vec.model', 'opener': None, 'closefd': True, 'errors': None}
+20190607153954- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607153954- INFO:setting ignored attribute vectors_norm to None
+20190607153954- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607153954- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607153954- INFO:setting ignored attribute cum_table to None
+20190607153954- INFO:loaded finword_to_vec.model
+20190607153958- DEBUG:Building prefix dict from the default dictionary ...
+20190607153958- DEBUG:Loading model from cache /tmp/jieba.cache
+20190607153959- DEBUG:Loading model cost 0.747 seconds.
+20190607153959- DEBUG:Prefix dict has been built succesfully.
+20190607154149- WARNING:segment fail
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 40, in segment
+    sentence = sentence.strip('\n')
+AttributeError: 'NoneType' object has no attribute 'strip'
+20190607154149- WARNING:segment fail
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 40, in segment
+    sentence = sentence.strip('\n')
+AttributeError: 'NoneType' object has no attribute 'strip'
+20190607154339- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607154341- INFO:loading Word2Vec object from finword_to_vec.model
+20190607154341- DEBUG:{'buffering': -1, 'ignore_ext': False, 'closefd': True, 'transport_params': {}, 'encoding': None, 'opener': None, 'uri': 'finword_to_vec.model', 'mode': 'rb', 'newline': None, 'errors': None}
+20190607154341- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607154341- INFO:setting ignored attribute vectors_norm to None
+20190607154341- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607154341- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607154341- INFO:setting ignored attribute cum_table to None
+20190607154341- INFO:loaded finword_to_vec.model
+20190607154523- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607154525- INFO:loading Word2Vec object from finword_to_vec.model
+20190607154525- DEBUG:{'newline': None, 'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'errors': None, 'uri': 'finword_to_vec.model', 'encoding': None, 'mode': 'rb', 'buffering': -1}
+20190607154525- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607154525- INFO:setting ignored attribute vectors_norm to None
+20190607154525- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607154525- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607154525- INFO:setting ignored attribute cum_table to None
+20190607154525- INFO:loaded finword_to_vec.model
+20190607154527- DEBUG:Building prefix dict from the default dictionary ...
+20190607154527- DEBUG:Loading model from cache /tmp/jieba.cache
+20190607154528- DEBUG:Loading model cost 0.790 seconds.
+20190607154528- DEBUG:Prefix dict has been built succesfully.
+20190607162249- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607162251- INFO:loading Word2Vec object from finword_to_vec.model
+20190607162251- DEBUG:{'buffering': -1, 'mode': 'rb', 'transport_params': {}, 'encoding': None, 'newline': None, 'closefd': True, 'ignore_ext': False, 'errors': None, 'opener': None, 'uri': 'finword_to_vec.model'}
+20190607162251- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607162251- INFO:setting ignored attribute vectors_norm to None
+20190607162251- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607162251- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607162251- INFO:setting ignored attribute cum_table to None
+20190607162251- INFO:loaded finword_to_vec.model
+20190607162254- DEBUG:Building prefix dict from the default dictionary ...
+20190607162254- DEBUG:Loading model from cache /tmp/jieba.cache
+20190607162255- DEBUG:Loading model cost 0.818 seconds.
+20190607162255- DEBUG:Prefix dict has been built succesfully.
+20190607163705- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607171152- INFO:loading Word2Vec object from finword_to_vec.model
+20190607171152- DEBUG:{'encoding': None, 'uri': 'finword_to_vec.model', 'opener': None, 'mode': 'rb', 'ignore_ext': False, 'closefd': True, 'newline': None, 'buffering': -1, 'transport_params': {}, 'errors': None}
+20190607171152- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607171152- INFO:setting ignored attribute vectors_norm to None
+20190607171152- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607171152- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607171152- INFO:setting ignored attribute cum_table to None
+20190607171152- INFO:loaded finword_to_vec.model
+20190607171223- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607171225- INFO:loading Word2Vec object from finword_to_vec.model
+20190607171225- DEBUG:{'opener': None, 'uri': 'finword_to_vec.model', 'ignore_ext': False, 'errors': None, 'buffering': -1, 'closefd': True, 'transport_params': {}, 'encoding': None, 'newline': None, 'mode': 'rb'}
+20190607171225- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607171225- INFO:setting ignored attribute vectors_norm to None
+20190607171225- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607171225- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607171225- INFO:setting ignored attribute cum_table to None
+20190607171225- INFO:loaded finword_to_vec.model
+20190607171227- ERROR:Internal Server Error: /score/
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 111, in post
+    return Response({"msg":ans})
+UnboundLocalError: local variable 'ans' referenced before assignment
+20190607171240- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607171242- INFO:loading Word2Vec object from finword_to_vec.model
+20190607171242- DEBUG:{'errors': None, 'ignore_ext': False, 'buffering': -1, 'mode': 'rb', 'encoding': None, 'transport_params': {}, 'closefd': True, 'uri': 'finword_to_vec.model', 'opener': None, 'newline': None}
+20190607171242- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607171242- INFO:setting ignored attribute vectors_norm to None
+20190607171242- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607171242- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607171242- INFO:setting ignored attribute cum_table to None
+20190607171242- INFO:loaded finword_to_vec.model
+20190607171244- DEBUG:Building prefix dict from the default dictionary ...
+20190607171244- DEBUG:Loading model from cache /tmp/jieba.cache
+20190607171245- DEBUG:Loading model cost 0.727 seconds.
+20190607171245- DEBUG:Prefix dict has been built succesfully.
+20190607171315- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607171317- INFO:loading Word2Vec object from finword_to_vec.model
+20190607171317- DEBUG:{'errors': None, 'buffering': -1, 'ignore_ext': False, 'transport_params': {}, 'closefd': True, 'encoding': None, 'uri': 'finword_to_vec.model', 'newline': None, 'opener': None, 'mode': 'rb'}
+20190607171317- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607171317- INFO:setting ignored attribute vectors_norm to None
+20190607171317- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607171317- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607171317- INFO:setting ignored attribute cum_table to None
+20190607171317- INFO:loaded finword_to_vec.model
+20190607171321- ERROR:Internal Server Error: /score/
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 111, in post
+    return Response({"msg":ans})
+UnboundLocalError: local variable 'ans' referenced before assignment
+20190607171330- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607171332- INFO:loading Word2Vec object from finword_to_vec.model
+20190607171332- DEBUG:{'opener': None, 'closefd': True, 'transport_params': {}, 'ignore_ext': False, 'mode': 'rb', 'uri': 'finword_to_vec.model', 'newline': None, 'errors': None, 'buffering': -1, 'encoding': None}
+20190607171332- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607171332- INFO:setting ignored attribute vectors_norm to None
+20190607171332- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607171332- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607171332- INFO:setting ignored attribute cum_table to None
+20190607171332- INFO:loaded finword_to_vec.model
+20190607171333- DEBUG:Building prefix dict from the default dictionary ...
+20190607171333- DEBUG:Loading model from cache /tmp/jieba.cache
+20190607171334- DEBUG:Loading model cost 0.742 seconds.
+20190607171334- DEBUG:Prefix dict has been built succesfully.
+20190607171805- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607171814- INFO:loading Word2Vec object from finword_to_vec.model
+20190607171814- DEBUG:{'opener': None, 'ignore_ext': False, 'errors': None, 'mode': 'rb', 'closefd': True, 'buffering': -1, 'encoding': None, 'uri': 'finword_to_vec.model', 'newline': None, 'transport_params': {}}
+20190607171814- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607171814- INFO:setting ignored attribute vectors_norm to None
+20190607171814- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607171814- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607171814- INFO:setting ignored attribute cum_table to None
+20190607171814- INFO:loaded finword_to_vec.model
+20190607171815- DEBUG:Building prefix dict from the default dictionary ...
+20190607171815- DEBUG:Loading model from cache /tmp/jieba.cache
+20190607171816- DEBUG:Loading model cost 0.695 seconds.
+20190607171816- DEBUG:Prefix dict has been built succesfully.
+20190607171937- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607171939- INFO:loading Word2Vec object from finword_to_vec.model
+20190607171939- DEBUG:{'encoding': None, 'mode': 'rb', 'closefd': True, 'uri': 'finword_to_vec.model', 'newline': None, 'errors': None, 'buffering': -1, 'ignore_ext': False, 'transport_params': {}, 'opener': None}
+20190607171939- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607171939- INFO:setting ignored attribute vectors_norm to None
+20190607171939- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607171939- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607171939- INFO:setting ignored attribute cum_table to None
+20190607171939- INFO:loaded finword_to_vec.model
+20190607171941- DEBUG:Building prefix dict from the default dictionary ...
+20190607171941- DEBUG:Loading model from cache /tmp/jieba.cache
+20190607171942- DEBUG:Loading model cost 0.708 seconds.
+20190607171942- DEBUG:Prefix dict has been built succesfully.
+20190607173307- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607173309- INFO:loading Word2Vec object from finword_to_vec.model
+20190607173309- DEBUG:{'uri': 'finword_to_vec.model', 'ignore_ext': False, 'newline': None, 'mode': 'rb', 'closefd': True, 'transport_params': {}, 'encoding': None, 'buffering': -1, 'errors': None, 'opener': None}
+20190607173309- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607173309- INFO:setting ignored attribute vectors_norm to None
+20190607173309- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607173309- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607173309- INFO:setting ignored attribute cum_table to None
+20190607173309- INFO:loaded finword_to_vec.model
+20190607173451- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607173453- INFO:loading Word2Vec object from finword_to_vec.model
+20190607173453- DEBUG:{'newline': None, 'uri': 'finword_to_vec.model', 'opener': None, 'closefd': True, 'mode': 'rb', 'errors': None, 'buffering': -1, 'transport_params': {}, 'ignore_ext': False, 'encoding': None}
+20190607173453- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607173453- INFO:setting ignored attribute vectors_norm to None
+20190607173453- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607173453- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607173453- INFO:setting ignored attribute cum_table to None
+20190607173453- INFO:loaded finword_to_vec.model
+20190607173509- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607173512- INFO:loading Word2Vec object from finword_to_vec.model
+20190607173512- DEBUG:{'uri': 'finword_to_vec.model', 'newline': None, 'opener': None, 'transport_params': {}, 'buffering': -1, 'closefd': True, 'errors': None, 'mode': 'rb', 'ignore_ext': False, 'encoding': None}
+20190607173512- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607173512- INFO:setting ignored attribute vectors_norm to None
+20190607173512- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607173512- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607173512- INFO:setting ignored attribute cum_table to None
+20190607173512- INFO:loaded finword_to_vec.model
+20190607173533- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190607173535- INFO:loading Word2Vec object from finword_to_vec.model
+20190607173535- DEBUG:{'closefd': True, 'mode': 'rb', 'uri': 'finword_to_vec.model', 'encoding': None, 'buffering': -1, 'transport_params': {}, 'newline': None, 'errors': None, 'ignore_ext': False, 'opener': None}
+20190607173535- INFO:loading wv recursively from finword_to_vec.model.wv.* with mmap=None
+20190607173535- INFO:setting ignored attribute vectors_norm to None
+20190607173535- INFO:loading vocabulary recursively from finword_to_vec.model.vocabulary.* with mmap=None
+20190607173535- INFO:loading trainables recursively from finword_to_vec.model.trainables.* with mmap=None
+20190607173535- INFO:setting ignored attribute cum_table to None
+20190607173535- INFO:loaded finword_to_vec.model
+20190608154548- INFO:loading Word2Vec object from /data/finword_to_vec.model
+20190608154613- DEBUG:{'transport_params': {}, 'closefd': True, 'ignore_ext': False, 'encoding': None, 'mode': 'rb', 'buffering': -1, 'opener': None, 'errors': None, 'uri': '/data/finword_to_vec.model', 'newline': None}
+20190608154659- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/api/settings.py changed, reloading.
+20190608154701- INFO:loading Word2Vec object from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608154701- DEBUG:{'errors': None, 'buffering': -1, 'ignore_ext': False, 'closefd': True, 'mode': 'rb', 'opener': None, 'uri': '/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model', 'transport_params': {}, 'encoding': None, 'newline': None}
+20190608154701- INFO:loading wv recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.wv.* with mmap=None
+20190608154701- INFO:setting ignored attribute vectors_norm to None
+20190608154701- INFO:loading vocabulary recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.vocabulary.* with mmap=None
+20190608154701- INFO:loading trainables recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.trainables.* with mmap=None
+20190608154701- INFO:setting ignored attribute cum_table to None
+20190608154701- INFO:loaded /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608154724- DEBUG:Building prefix dict from the default dictionary ...
+20190608154724- DEBUG:Loading model from cache /tmp/jieba.cache
+20190608154724- DEBUG:Loading model cost 0.762 seconds.
+20190608154724- DEBUG:Prefix dict has been built succesfully.
+20190608154726- ERROR:Internal Server Error: /score/
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 129, in post
+    with io.open(IDF_DIC,"r",encoding = 'utf8') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/idf_dict_10_company.json'
+20190608155121- INFO:loading Word2Vec object from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608155121- DEBUG:{'opener': None, 'transport_params': {}, 'mode': 'rb', 'closefd': True, 'newline': None, 'buffering': -1, 'ignore_ext': False, 'errors': None, 'encoding': None, 'uri': '/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model'}
+20190608155121- INFO:loading wv recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.wv.* with mmap=None
+20190608155121- INFO:setting ignored attribute vectors_norm to None
+20190608155121- INFO:loading vocabulary recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.vocabulary.* with mmap=None
+20190608155121- INFO:loading trainables recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.trainables.* with mmap=None
+20190608155121- INFO:setting ignored attribute cum_table to None
+20190608155121- INFO:loaded /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608155123- DEBUG:Building prefix dict from the default dictionary ...
+20190608155123- DEBUG:Loading model from cache /tmp/jieba.cache
+20190608155124- DEBUG:Loading model cost 0.731 seconds.
+20190608155124- DEBUG:Prefix dict has been built succesfully.
+20190608155124- ERROR:Internal Server Error: /score/
+Traceback (most recent call last):
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/rest_framework/views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/rest_framework/views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api_env/lib/python3.5/site-packages/rest_framework/views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py", line 129, in post
+    with io.open(IDF_DIC,"r",encoding = 'utf8') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/idf_dict_8_company.json'
+20190608160115- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190608160117- INFO:loading Word2Vec object from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608160117- DEBUG:{'opener': None, 'ignore_ext': False, 'uri': '/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model', 'buffering': -1, 'encoding': None, 'newline': None, 'errors': None, 'closefd': True, 'transport_params': {}, 'mode': 'rb'}
+20190608160117- INFO:loading wv recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.wv.* with mmap=None
+20190608160117- INFO:setting ignored attribute vectors_norm to None
+20190608160117- INFO:loading vocabulary recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.vocabulary.* with mmap=None
+20190608160117- INFO:loading trainables recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.trainables.* with mmap=None
+20190608160117- INFO:setting ignored attribute cum_table to None
+20190608160117- INFO:loaded /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608160120- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190608160122- INFO:loading Word2Vec object from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608160122- DEBUG:{'newline': None, 'encoding': None, 'opener': None, 'errors': None, 'uri': '/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model', 'mode': 'rb', 'ignore_ext': False, 'buffering': -1, 'transport_params': {}, 'closefd': True}
+20190608160122- INFO:loading wv recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.wv.* with mmap=None
+20190608160122- INFO:setting ignored attribute vectors_norm to None
+20190608160122- INFO:loading vocabulary recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.vocabulary.* with mmap=None
+20190608160122- INFO:loading trainables recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.trainables.* with mmap=None
+20190608160122- INFO:setting ignored attribute cum_table to None
+20190608160122- INFO:loaded /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608160125- DEBUG:Building prefix dict from the default dictionary ...
+20190608160125- DEBUG:Loading model from cache /tmp/jieba.cache
+20190608160126- DEBUG:Loading model cost 0.721 seconds.
+20190608160126- DEBUG:Prefix dict has been built succesfully.
+20190608160337- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190608160339- INFO:loading Word2Vec object from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608160339- DEBUG:{'newline': None, 'errors': None, 'uri': '/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model', 'closefd': True, 'mode': 'rb', 'opener': None, 'encoding': None, 'buffering': -1, 'ignore_ext': False, 'transport_params': {}}
+20190608160339- INFO:loading wv recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.wv.* with mmap=None
+20190608160339- INFO:setting ignored attribute vectors_norm to None
+20190608160339- INFO:loading vocabulary recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.vocabulary.* with mmap=None
+20190608160339- INFO:loading trainables recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.trainables.* with mmap=None
+20190608160339- INFO:setting ignored attribute cum_table to None
+20190608160339- INFO:loaded /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608160344- DEBUG:Building prefix dict from the default dictionary ...
+20190608160344- DEBUG:Loading model from cache /tmp/jieba.cache
+20190608160344- DEBUG:Loading model cost 0.720 seconds.
+20190608160344- DEBUG:Prefix dict has been built succesfully.
+20190608160451- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/score/views.py changed, reloading.
+20190608160454- INFO:loading Word2Vec object from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608160454- DEBUG:{'uri': '/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model', 'encoding': None, 'opener': None, 'buffering': -1, 'newline': None, 'mode': 'rb', 'closefd': True, 'transport_params': {}, 'ignore_ext': False, 'errors': None}
+20190608160454- INFO:loading wv recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.wv.* with mmap=None
+20190608160454- INFO:setting ignored attribute vectors_norm to None
+20190608160454- INFO:loading vocabulary recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.vocabulary.* with mmap=None
+20190608160454- INFO:loading trainables recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.trainables.* with mmap=None
+20190608160454- INFO:setting ignored attribute cum_table to None
+20190608160454- INFO:loaded /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608160455- DEBUG:Building prefix dict from the default dictionary ...
+20190608160455- DEBUG:Loading model from cache /tmp/jieba.cache
+20190608160456- DEBUG:Loading model cost 0.691 seconds.
+20190608160456- DEBUG:Prefix dict has been built succesfully.
+20190608160918- INFO:loading Word2Vec object from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608160918- DEBUG:{'ignore_ext': False, 'transport_params': {}, 'newline': None, 'buffering': -1, 'encoding': None, 'errors': None, 'mode': 'rb', 'uri': '/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model', 'opener': None, 'closefd': True}
+20190608160918- INFO:loading wv recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.wv.* with mmap=None
+20190608160918- INFO:setting ignored attribute vectors_norm to None
+20190608160918- INFO:loading vocabulary recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.vocabulary.* with mmap=None
+20190608160918- INFO:loading trainables recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.trainables.* with mmap=None
+20190608160918- INFO:setting ignored attribute cum_table to None
+20190608160918- INFO:loaded /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608161014- ERROR:Invalid HTTP_HOST header: '172.26.227.81:8000'. You may need to add '172.26.227.81' to ALLOWED_HOSTS.
+20190608161014- WARNING:Bad Request: /score/
+20190608161032- INFO:/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/api/settings.py changed, reloading.
+20190608161034- INFO:loading Word2Vec object from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608161034- DEBUG:{'encoding': None, 'transport_params': {}, 'ignore_ext': False, 'opener': None, 'errors': None, 'newline': None, 'mode': 'rb', 'uri': '/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model', 'buffering': -1, 'closefd': True}
+20190608161034- INFO:loading wv recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.wv.* with mmap=None
+20190608161034- INFO:setting ignored attribute vectors_norm to None
+20190608161034- INFO:loading vocabulary recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.vocabulary.* with mmap=None
+20190608161034- INFO:loading trainables recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.trainables.* with mmap=None
+20190608161034- INFO:setting ignored attribute cum_table to None
+20190608161034- INFO:loaded /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608161043- INFO:loading Word2Vec object from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608161043- DEBUG:{'transport_params': {}, 'newline': None, 'opener': None, 'errors': None, 'uri': '/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model', 'mode': 'rb', 'ignore_ext': False, 'encoding': None, 'closefd': True, 'buffering': -1}
+20190608161043- INFO:loading wv recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.wv.* with mmap=None
+20190608161043- INFO:setting ignored attribute vectors_norm to None
+20190608161043- INFO:loading vocabulary recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.vocabulary.* with mmap=None
+20190608161043- INFO:loading trainables recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.trainables.* with mmap=None
+20190608161043- INFO:setting ignored attribute cum_table to None
+20190608161043- INFO:loaded /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608161047- DEBUG:Building prefix dict from the default dictionary ...
+20190608161047- DEBUG:Loading model from cache /tmp/jieba.cache
+20190608161048- DEBUG:Loading model cost 0.739 seconds.
+20190608161048- DEBUG:Prefix dict has been built succesfully.
+20190608162317- INFO:loading Word2Vec object from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608162317- DEBUG:{'uri': '/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model', 'closefd': True, 'transport_params': {}, 'encoding': None, 'newline': None, 'opener': None, 'mode': 'rb', 'ignore_ext': False, 'buffering': -1, 'errors': None}
+20190608162317- INFO:loading wv recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.wv.* with mmap=None
+20190608162317- INFO:setting ignored attribute vectors_norm to None
+20190608162317- INFO:loading vocabulary recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.vocabulary.* with mmap=None
+20190608162317- INFO:loading trainables recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.trainables.* with mmap=None
+20190608162317- INFO:setting ignored attribute cum_table to None
+20190608162317- INFO:loaded /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608162324- DEBUG:Building prefix dict from the default dictionary ...
+20190608162324- DEBUG:Loading model from cache /tmp/jieba.cache
+20190608162325- DEBUG:Loading model cost 0.724 seconds.
+20190608162325- DEBUG:Prefix dict has been built succesfully.
+20190608162538- INFO:loading Word2Vec object from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608162538- DEBUG:{'ignore_ext': False, 'errors': None, 'transport_params': {}, 'buffering': -1, 'closefd': True, 'encoding': None, 'uri': '/mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model', 'newline': None, 'opener': None, 'mode': 'rb'}
+20190608162538- INFO:loading wv recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.wv.* with mmap=None
+20190608162538- INFO:setting ignored attribute vectors_norm to None
+20190608162538- INFO:loading vocabulary recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.vocabulary.* with mmap=None
+20190608162538- INFO:loading trainables recursively from /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model.trainables.* with mmap=None
+20190608162538- INFO:setting ignored attribute cum_table to None
+20190608162538- INFO:loaded /mnt/c/Users/joe/Desktop/mygits/Fintech2019/api/api/data/finword_to_vec.model
+20190608162620- DEBUG:Building prefix dict from the default dictionary ...
+20190608162620- DEBUG:Loading model from cache /tmp/jieba.cache
+20190608162621- DEBUG:Loading model cost 0.777 seconds.
+20190608162621- DEBUG:Prefix dict has been built succesfully.
