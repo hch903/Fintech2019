@@ -451,3 +451,35 @@ FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/Users/joe/Deskto
 20190608162620- DEBUG:Loading model from cache /tmp/jieba.cache
 20190608162621- DEBUG:Loading model cost 0.777 seconds.
 20190608162621- DEBUG:Prefix dict has been built succesfully.
+20190609115626- INFO:loading Word2Vec object from /Users/xiehaochen/Desktop/Fintech2019/api/data/finword_to_vec.model
+20190609115626- DEBUG:{'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/Users/xiehaochen/Desktop/Fintech2019/api/data/finword_to_vec.model'}
+20190609115626- INFO:loading wv recursively from /Users/xiehaochen/Desktop/Fintech2019/api/data/finword_to_vec.model.wv.* with mmap=None
+20190609115626- INFO:setting ignored attribute vectors_norm to None
+20190609115626- INFO:loading vocabulary recursively from /Users/xiehaochen/Desktop/Fintech2019/api/data/finword_to_vec.model.vocabulary.* with mmap=None
+20190609115626- INFO:loading trainables recursively from /Users/xiehaochen/Desktop/Fintech2019/api/data/finword_to_vec.model.trainables.* with mmap=None
+20190609115626- INFO:setting ignored attribute cum_table to None
+20190609115626- INFO:loaded /Users/xiehaochen/Desktop/Fintech2019/api/data/finword_to_vec.model
+20190609115713- WARNING:Not Found: /
+20190609115714- WARNING:Not Found: /favicon.ico
+20190609115719- WARNING:Not Found: /
+20190609115723- ERROR:Internal Server Error: /score/
+Traceback (most recent call last):
+  File "/Users/xiehaochen/Desktop/Fintech2019/api/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/xiehaochen/Desktop/Fintech2019/api/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/xiehaochen/Desktop/Fintech2019/api/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/Users/xiehaochen/Desktop/Fintech2019/api/env/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/Users/xiehaochen/Desktop/Fintech2019/api/env/lib/python3.6/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/xiehaochen/Desktop/Fintech2019/api/env/lib/python3.6/site-packages/rest_framework/renderers.py", line 732, in render
+    template = loader.get_template(self.template)
+  File "/Users/xiehaochen/Desktop/Fintech2019/api/env/lib/python3.6/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+20190609115921- DEBUG:Building prefix dict from the default dictionary ...
+20190609115923- DEBUG:Dumping model to file cache /var/folders/nm/kp9jlkcn5lbcbctrhzrsk5f00000gn/T/jieba.cache
+20190609115923- DEBUG:Loading model cost 1.670 seconds.
+20190609115923- DEBUG:Prefix dict has been built succesfully.
